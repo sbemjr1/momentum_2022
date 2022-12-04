@@ -1,0 +1,69 @@
+body {
+  margin: 0px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  font-weight: bold;
+  color: white;
+}
+
+.hidden {
+  display: none;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  z-index: -1;
+}
+
+.mainList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#weather {
+  color: white;
+}
+
+#clock {
+  display: flex;
+  color: white;
+  font-size: 80px;
+  margin-bottom: 10px;
+}
+
+#quote {
+  color: white;
+}
+
+#login-form input,
+#todo-form input {
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid white;
+}
+
+input::placeholder {
+  color: white;
+}
+
+input:focus {
+  outline: none;
+  color: white;
+}
+
+ul {
+  list-style: none;
+}
+
+#todo-list button {
+  background-color: transparent;
+  border: none;
+}
